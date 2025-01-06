@@ -1,19 +1,17 @@
 import React from 'react';
-import './app.css'; // Import the CSS file
-
+import '../app.css'; 
+import pic from "../assets/bit.jpg"
 const LoginPage = () => {
   return (
-    <div className="container">
+    <div className="container ">
       
 
-      <div className="imageSection">
+      <div className="imageSection ">
         <img
-          src=".\bit.jpg" // Replace with the correct image URL
+          src={pic} 
           alt="Campus"
           className="image"
         />
-        <div className="headerText">BANNARI AMMAN INSTITUTE OF TECHNOLOGY</div>
-        <div className="clgtype"><p>Autonomous Institution, Accredited by NAAC with 'A' Grade</p></div>
         <div className="overlayText"> &nbsp; &nbsp; C&nbsp;O&nbsp;N&nbsp;T&nbsp;R&nbsp;O&nbsp;L&nbsp;L&nbsp;E&nbsp;R &nbsp; &nbsp; &nbsp; &nbsp; O&nbsp;F &nbsp; &nbsp; &nbsp; <br></br> &nbsp; &nbsp;  E&nbsp;X&nbsp;A&nbsp;M&nbsp;I&nbsp;N&nbsp;A&nbsp;T&nbsp;I&nbsp;O&nbsp;N</div>
       </div>
 
@@ -59,7 +57,7 @@ const LoginPage = () => {
 
           <button type="button" className="googleButton">
             <img
-              src=".\googleicon.png" // Replace with a Google icon URL
+              src="./googleicon.png" // Replace with a Google icon URL
               alt="Google Icon"
               className="googleIcon"
             />
